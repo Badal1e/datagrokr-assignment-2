@@ -1,0 +1,15 @@
+PR Title:
+feat/FEAPP-420: Implement WhatsApp as a notification option
+
+PR Description:
+### WHAT:
+
+This update adds a new, optional field for a customer's WhatsApp number in their user settings. If a number is provided, the system will now send all product notifications to their WhatsApp, in addition to their email. The existing email notification functionality remains unchanged.
+
+### WHY:
+
+This feature was implemented in direct response to customer feedback requesting more flexible notification options. By adding a widely-used platform like WhatsApp, we aim to improve how we communicate updates and boost user engagement with our products.
+
+### Notes:
+
+No changes to the local development workflow are introduced with this feature.

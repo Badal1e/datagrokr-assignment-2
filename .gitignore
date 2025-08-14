@@ -1,0 +1,25 @@
+# Standard Python exclusions
+__pycache__/
+*.pyc
+.venv/
+env/
+
+# Build and distribution artifacts
+build/
+dist/
+*.egg-info/
+
+# Configuration files containing secrets or environment-specific info
+# These must be excluded for security.
+*.env
+
+# Generated log files from local testing
+# These are not part of the source code.
+test-runs/logs/
+
+# Any CSV data files should be ignored
+*.csv
+
+# Common operating system files
+.DS_Store
+Thumbs.db
